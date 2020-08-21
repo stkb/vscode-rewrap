@@ -234,7 +234,7 @@ let mutable languages = [
         java
     lang "Shell script" "shellscript" ".sh"
         configFile
-    lang "SQL" "" ".sql"
+    lang "SQL" "postgres" ".pgsql|.psql|.sql"
         ( sourceCode [ line "--"; cBlock ] )
     lang "Swift" "" ".swift"
         java
